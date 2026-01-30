@@ -1,0 +1,6 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+Azure Databricks or Databricks Community edition (Transformers supported)
