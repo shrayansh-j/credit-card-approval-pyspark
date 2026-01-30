@@ -109,42 +109,42 @@ Confusion Matrix:
 ### Model Comparison (AUC)
 XGBoost significantly outperforms Logistic Regression, showing superior ranking ability for risky applicants.
 
-![Model Comparison](images/model_comparison_auc.png)
+![Model Comparison](Images/model_comparison_auc.png)
 
 ---
 
 ### Class Imbalance in Target Variable
 The dataset is highly imbalanced, with defaulters representing a very small percentage of applicants — a realistic banking scenario.
 
-![Class Distribution](images/class_distribution.png)
+![Class Distribution](Images/class_distribution.png)
 
 ---
 
 ### Confusion Matrix (Threshold = 0.75)
 Shows strong detection of defaulters and very low number of risky approvals.
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](Images/confusion_matrix.png)
 
 ---
 
 ### ROC Curve (AUC = 0.898)
 Demonstrates excellent separability between safe and risky applicants.
 
-![ROC Curve](images/roc_curve.png)
+![ROC Curve](Images/roc_curve.png)
 
 ---
 
 ### Precision–Recall Curve (AP = 0.749)
 Highlights strong precision at high recall levels for the minority (defaulter) class.
 
-![PR Curve](images/pr_curve.png)
+![PR Curve](Images/pr_curve.png)
 
 ---
 
 ### XGBoost Feature Importance
 Most influential drivers of credit risk.
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](Images/feature_importance.png)
 
 ---
 
